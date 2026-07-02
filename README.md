@@ -14,7 +14,7 @@ An AI-powered Cybersecurity Copilot that automates **Threat Intelligence Investi
 
 ---
 
-# 🚀 Overview
+#  Overview
 
 Security analysts often spend significant time manually checking multiple threat intelligence platforms, searching security documentation, and writing detection rules.
 
@@ -22,21 +22,21 @@ CyberSec Copilot automates these repetitive tasks by intelligently routing user 
 
 The application can:
 
-- 🔍 Investigate IP addresses
-- 🌐 Investigate Domains
-- 🔗 Investigate URLs
-- 🧾 Investigate CVEs
-- 📦 Investigate File Hashes
-- 📚 Answer questions from uploaded security policies (RAG)
-- 🎯 Generate Sigma Rules
-- 🛡️ Generate YARA Rules
-- 📖 Map threats to MITRE ATT&CK
+-  Investigate IP addresses
+-  Investigate Domains
+-  Investigate URLs
+-  Investigate CVEs
+-  Investigate File Hashes
+-  Answer questions from uploaded security policies (RAG)
+-  Generate Sigma Rules
+-  Generate YARA Rules
+-  Map threats to MITRE ATT&CK
 
 ---
 
-# ✨ Features
+#  Features
 
-## 🔍 Threat Intelligence Investigation
+##  Threat Intelligence Investigation
 
 Automatically investigates:
 
@@ -50,7 +50,7 @@ using multiple threat intelligence providers.
 
 ---
 
-## 🌐 Threat Intelligence Integrations
+##  Threat Intelligence Integrations
 
 The application aggregates intelligence from:
 
@@ -64,7 +64,7 @@ All intelligence is merged into a single AI-generated investigation report.
 
 ---
 
-## 🤖 AI Threat Assessment
+##  AI Threat Assessment
 
 Google Gemini analyzes the collected evidence and generates:
 
@@ -76,7 +76,7 @@ Google Gemini analyzes the collected evidence and generates:
 
 ---
 
-## 📚 Retrieval-Augmented Generation (RAG)
+##  Retrieval-Augmented Generation (RAG)
 
 Upload security documents such as:
 
@@ -89,7 +89,7 @@ The assistant stores document embeddings in **ChromaDB** and answers questions u
 
 ---
 
-## 🛡️ Detection Engineering
+##  Detection Engineering
 
 Automatically generates:
 
@@ -101,13 +101,13 @@ from security incidents and threat descriptions.
 
 ---
 
-## 🧠 Intelligent Routing
+##  Intelligent Routing
 
 Instead of sending every request to a single LLM prompt, the application uses **LangGraph StateGraph** to intelligently route user requests into specialized workflows.
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ![Architecture](docs/architecture.png)
 
@@ -123,7 +123,7 @@ The application is built using **LangGraph's StateGraph**, where a Router Agent 
 
 ---
 
-# ⚙️ Threat Intelligence Workflow
+#  Threat Intelligence Workflow
 
 ```
 User Query
@@ -155,11 +155,11 @@ Gemini Threat Assessment
 
 ---
 
-# 🎥 Project Demonstration
+#  Project Demonstration
 
 The repository includes demonstration videos showing the complete workflow.
 
-### 🛡️ Threat Intelligence Investigation
+###  Threat Intelligence Investigation
 
 Demonstrates:
 
@@ -172,7 +172,7 @@ Demonstrates:
 
 ---
 
-### 📚 RAG Assistant
+###  RAG Assistant
 
 Demonstrates:
 
@@ -182,7 +182,7 @@ Demonstrates:
 
 ---
 
-### 🎯 Detection Engineering
+###  Detection Engineering
 
 Demonstrates:
 
@@ -192,7 +192,7 @@ Demonstrates:
 
 ---
 
-# 💻 Tech Stack
+#  Tech Stack
 
 ### Programming
 
@@ -228,7 +228,7 @@ Demonstrates:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 CyberSec-Copilot
@@ -251,7 +251,7 @@ CyberSec-Copilot
 
 ---
 
-# 🚀 Installation
+#  Installation
 
 Clone the repository
 
@@ -301,7 +301,7 @@ streamlit run app.py
 
 ---
 
-# 🔑 Required API Keys
+#  Required API Keys
 
 Create a `.env` file and add:
 
@@ -321,7 +321,7 @@ MISP_API_KEY=
 
 ---
 
-# 🧠 How It Works
+#  How It Works
 
 1. User submits a cybersecurity query.
 2. LangGraph Router determines the intent.
@@ -332,7 +332,7 @@ MISP_API_KEY=
 
 ---
 
-# 📈 Future Improvements
+#  Future Improvements
 
 - Shodan Integration
 - GreyNoise Integration
@@ -345,7 +345,7 @@ MISP_API_KEY=
 
 ---
 
-# 🎯 Learning Outcomes
+#  Learning Outcomes
 
 This project helped me gain hands-on experience with:
 
@@ -362,13 +362,13 @@ This project helped me gain hands-on experience with:
 
 ---
 
-# 📜 License
+#  License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 ## Satyam Shashwat
 
@@ -380,4 +380,4 @@ https://www.linkedin.com/in/satyam-shashwat-38a5a6259
 
 ---
 
-⭐ If you found this project interesting, consider giving it a star!
+ If you found this project interesting, consider giving it a star!
