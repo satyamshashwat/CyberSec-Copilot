@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Chroma Vector Database
+storage/
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
