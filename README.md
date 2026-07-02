@@ -111,16 +111,11 @@ Instead of sending every request to a single LLM prompt, the application uses **
 
 ![Architecture](docs/architecture.png)
 
-The application is built using **LangGraph's StateGraph**, where a Router Agent dynamically selects the appropriate workflow.
+The CyberSec Copilot is built using a LangGraph multi-agent workflow where a router dynamically selects the appropriate security pipeline.
 
-### Main Graph
-
-- Router Agent
-- Threat Intelligence Subgraph
-- Detection Engineering Subgraph
-- RAG Subgraph
-- General Assistant
-
+<p align="center">
+  <img src="docs/architecture.png" width="1000"/>
+</p>
 ---
 
 #  Threat Intelligence Workflow
