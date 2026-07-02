@@ -109,7 +109,6 @@ Instead of sending every request to a single LLM prompt, the application uses **
 
 #  System Architecture
 
-![Architecture](docs/architecture.png)
 
 The CyberSec Copilot is built using a LangGraph multi-agent workflow where a router dynamically selects the appropriate security pipeline.
 
